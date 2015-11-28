@@ -1,6 +1,6 @@
 from BaseHTTPServer import BaseHTTPRequestHandler
 
-class Router(BaseHTTPRequestHandler)
+class Router(BaseHTTPRequestHandler):
 
 	def do_GET(self):
 		self.send_response(200)
